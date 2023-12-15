@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POKEMON BLANCO-POKEMON NEGRO</title>
+    <link rel="stylesheet" href="./css/pokemonbn.css">
+    <link rel="shortcut icon" href="./img/pokeball-favicon.png" type="image/xicon">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#intro">Introducción</a>
+                <a href="#region">Región</a>
+                <a href="#characters">Personajes</a>
+                <a href="#pokemon">Pokemon</a>
+                <a href="#story">Historia</a>
+                <a href="#music">Música</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+
+        <section id="hero"></section>
+    </div>
+
+    <!-- INTRO SECTION -->
+    <section id="intro">
+        
+        <!-- aquí podría poner un título o lo que fuera indep. de las columnas -->
+
+        <div class="grid-2"> <!-- esto va a ser el contenedor del grid de 2 -->
+            <div class="col-2">
+            <h3 class="title">INTRODUCCIÓN</h3>
+            <p>Bienvenidos a la región de Unova (en América e Inglaterra)/Teselia (en España), en la cual está inspirada en el continente americano. En esta región existen Pokemon que están inspirados en la cultura estadounidense y ciudades inspirados también en ciudades de la vida real.
+            <p>>Se hablará de diferentes secciones sobre esta generación:</p>
+            </p>
+            </div>
+            <div class="col-2">
+                <img id="introimg" src="./img/img_intro_pokemonbn.jpg" alt="pn">
+            </div>
+        </div>
+    </section>
+
+    <section id="region">
+        <div class="grid-2"> <!-- esto va a ser el contenedor del grid de 2 -->
+            <div class="col-2">
+            <h3 class="title">REGIÓN</h3>
+            <p>Unova/Teselia es la región en donde se desarrolla la trama de los videojuegos Pokémon Negro y Pokémon Blanco. Se aprecia que en la región, con respecto a las demás regiones del mundo Pokémon, hay ciudades mucho más modernas.</p>
+            </div>
+            <div class="col-2">
+                <img id="regimg" src="./img/regimg.webp" alt="pn">
+            </div>
+        </div>
+    </section>
+
+    <section id="characters"> <!-- esto va a ser el contenedor del grid de 2 -->
+            <h3 class="title" id="pers">PERSONAJES</h3>
+            
+            <div class="accordion">
+
+                <article>
+                  <input id="article1" type="radio" name="articles" checked>
+                  <label for="article1">
+                    <h4 id="prot">PROTAGONISTA:</h4>
+                  </label>
+                  <div>
+                    <img id="protas" src="./img/protas.jpg" alt="pn">
+                  </div>
+                </article>
+              
+                <article>
+                  <input id="article2" type="radio" name="articles">
+                  <label for="article2">
+                    <h4 id="riv">RIVALES:</h4>
+                  </label>
+                  <div>
+                    <img id="rival" src="./img/rivales.jpg" alt="pn">
+                  </div>
+                </article>
+              
+                <article>
+                  <input id="article3" type="radio" name="articles">
+                  <label for="article3">
+                    <h4 id="gim">LÍDERES DE GIMNASIO:</h4>
+                  </label>
+                  <div>
+                    <img id="lideres" src="./img/lideres.png" alt="pn">
+                  </div>
+                </article>
+              
+                <article>
+                    <input id="article4" type="radio" name="articles">
+                    <label for="article4">
+                        <h4 id="plas" >EQUIPO PLASMA:</h4>
+                    </label>
+                  <div>
+                    <img id="plasma" src="./img/plasma.jpg" alt="pn">
+                    <p>Su lider es Ghetsis.</p>
+                  </div>
+                </article>
+              
+              </div>
+    </section>
+        <!-- algo podría ir aquí -->
+
+</body>
+<div id="wrapper">
+    <footer> 
+        <div class="grid-3d">
+            <div class="col-4">
+                <h3>Sígueme en redes:</h3>
+                    <a href="" target="blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="" target="blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="" target="blank"><i class="fa fa-twitter"  aria-hidden="true"></i></a>
+                    <a href="" target="blank"><i class="fa fa-instagram"aria-hidden="true"></i></a>
+                    <a href="" target="blank"><i class="fa fa-github"   aria-hidden="true"></i></a>
+            </div>
+            
+            <!-- Trigger/Open The Modal -->
+            <h3 id="myBtn">Créditos</h3>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                 <span class="close">&times;</span>
+                 <p>Some text in the Modal..</p>
+                 </div>
+            </div> 
+            
+            <div class="col-4">
+                <a href="#home" class="active">Home</a>
+                <a href="#intro">Introducción</a>
+                <a href="#region">Región</a>
+                <a href="#characters">Personajes</a>
+                <a href="#pokemon">Pokemon</a>
+                <a href="#story">Historia</a>
+                <a href="#music">Música</a>
+            </div>
+        </div>
+    </footer>
+</div>
+</html>
