@@ -8,7 +8,6 @@
     <link rel="shortcut icon" href="./img/pokeball-favicon.png" type="image/xicon">
 </head>
 <body>
-    <div id="wrapper">
         <nav>
             <div class="topnav" id="myTopnav">
                 <a href="#home" class="active">Home</a>
@@ -16,7 +15,6 @@
                 <a href="#region">Región</a>
                 <a href="#characters">Personajes</a>
                 <a href="#pokemon">Pokemon</a>
-                <a href="#story">Historia</a>
                 <a href="#music">Música</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                   <i class="fa fa-bars"></i>
@@ -27,7 +25,8 @@
         <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
 
         <section id="hero"></section>
-    </div>
+    
+        <div id="wrapper">
 
     <!-- INTRO SECTION -->
     <section id="intro">
@@ -36,13 +35,12 @@
 
         <div class="grid-2"> <!-- esto va a ser el contenedor del grid de 2 -->
             <div class="col-2">
-            <h3 class="title">INTRODUCCIÓN</h3>
-            <p>Bienvenidos a la región de Unova (en América e Inglaterra)/Teselia (en España), en la cual está inspirada en el continente americano. En esta región existen Pokemon que están inspirados en la cultura estadounidense y ciudades inspirados también en ciudades de la vida real.
-            <p>>Se hablará de diferentes secciones sobre esta generación:</p>
-            </p>
+              <h3 class="title">INTRODUCCIÓN</h3>
+              <p>Bienvenidos a la región de Unova (en América e Inglaterra)/Teselia (en España), en la cual está inspirada en el continente americano. En esta región existen Pokemon que están inspirados en la cultura estadounidense y ciudades inspirados también en ciudades de la vida real.</p>
+                <p>>Se hablará de diferentes secciones sobre esta generación:</p>
             </div>
             <div class="col-2">
-                <img id="introimg" src="./img/img_intro_pokemonbn.jpg" alt="pn">
+              <iframe id="introvid" width="560" height="315" src="https://www.youtube.com/embed/Kpczvsv88XE?si=l0pX_11Jn28IL11X&amp;start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </section>
@@ -54,7 +52,63 @@
             <p>Unova/Teselia es la región en donde se desarrolla la trama de los videojuegos Pokémon Negro y Pokémon Blanco. Se aprecia que en la región, con respecto a las demás regiones del mundo Pokémon, hay ciudades mucho más modernas.</p>
             </div>
             <div class="col-2">
-                <img id="regimg" src="./img/regimg.webp" alt="pn">
+                <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="./img/Gimnasio_Gres.png" style="width:100%">
+    <div class="text">Ciudad Gres</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="./img/Gimnasio_Esmalte.png" style="width:100%">
+    <div class="text">Ciudad Esmalte</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="./img/ciudad_Porcelana.png" style="width:100%">
+    <div class="text">Ciudad Porcelana</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+    <img src="./img/Gimnasio_mayolica.png" style="width:100%">
+    <div class="text">Ciudad Mayólica</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+    <img src="./img/Gimnasio_Ciudad_Fayenza.png" style="width:100%">
+    <div class="text">Ciudad Fayenza</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+    <img src="./img/Gimnasio_Ciudad_Loza.png" style="width:100%">
+    <div class="text">Ciudad Loza</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+    <img src="./img/ciudad_teja.png" style="width:100%">
+    <div class="text">Ciudad Teja</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+    <img src="./img/Gimnasio_de_Ciudad_Caolín.png" style="width:100%">
+    <div class="text">Ciudad Caolín</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
             </div>
         </div>
     </section>
@@ -107,10 +161,40 @@
               
               </div>
     </section>
-        <!-- algo podría ir aquí -->
+    
+    <section id="pokemon">
+      <h3 class="title">POKEMON</h3>
+      <section id="pokemoncard">
+        <h1 class="title">Iniciales</h1>
+        <div class="grid-4">
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/oshawott_card.png" alt="imagen pokemon inicial oshawott">
+                    <h3>Oshawott</h3>
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/snivy_card.png" alt="imagen pokemon inicial snivy">
+                    <h3>Snivy</h3>
+                    <button>Read more</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/tepig_card.png" alt="imagen pokemon inicial tepig">
+                    <h3>Tepig</h3>
+                    <button>Read more</button>
+                </div>
+            </div>
+        </div>
 
-</body>
-<div id="wrapper">
+
+    </section>
+    </section>
+
+</div>
     <footer> 
         <div class="grid-3d">
             <div class="col-4">
@@ -146,5 +230,6 @@
             </div>
         </div>
     </footer>
-</div>
+    <script src="./javascript/cositas.js"></script>
+  </body>
 </html>
