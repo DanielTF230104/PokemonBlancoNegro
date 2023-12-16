@@ -9,8 +9,6 @@
 
 /*
     body: rgb(31, 31, 31);
-
-    buttons: #990505 /  rgb(153, 5, 5) // #800928 / rgb(128, 9, 40);
 */
 
 /******************************** FUENTES ***********************************/
@@ -231,7 +229,8 @@ to {opacity: 1}
   color: black;
   padding: 20px;}
 
-#characters .title {text-align: center;}
+#characters .title {text-align: center;
+                    font-size: 35px;}
 
 #protas {width: 70%;
   display: block;
@@ -285,7 +284,8 @@ top: -100vh; left: -100vh;
 /******************************* POKEMON ******************************/
 
 #pokemon .title {text-align: center;
-                 padding: 25px;}
+                 padding: 25px;
+                 font-size: 25px;}
 
 /**************************** FOOTER ******************************************/
 footer {background-color: black;
