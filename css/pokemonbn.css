@@ -97,11 +97,10 @@ cursor: crosshair;}
 
 /***********                HERO SECTION                ***********/
 
-#hero {background-image: url(../img/pokemonbn.webp);
+#hero {background-image: url(../img/imagenhs.jpg);
   height: 100vh;
   width: 100%;
   background-size:cover;
-  background-position: 40%;
   position:relative;} 
 
 /**************************** INTRO SECTION (GRID-2) ***********************************/
@@ -292,7 +291,6 @@ footer {background-color: black;
   color: white;}
 .grid-2{
 display: grid;
-grid-template-columns: 50% 50%;
 }
 .grid-2 .col-4 {
 text-align: center;
@@ -408,15 +406,22 @@ margin-left: 31%;
 
 /****************************   RESPONSIVIDAD   *******************************/
 
-@media only screen and (width>650px) {       /*********** TABLET **************/
+
+
+
+@media only screen and (width<760px) {       /*********** TABLET **************/
 #wrapper {width: 90%;}
 .grid-4 {grid-template-columns: auto auto;}
-
 }
-
 @media only screen and (width>900px){        /************ COMPUTER ************/
 
 #wrapper {width: 80%;}
+
+#hero {
+  background-image: url(../img/pokemonbn.webp);
+  height: 100vh;
+  background-size: cover;  
+}
 
 .grid-2 {grid-template-columns: 50% 50%;}
 .grid-3d {grid-template-columns: 25% 25% 50%;}
