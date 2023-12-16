@@ -33,6 +33,7 @@
 <h3>Hero Section</h3>
 <img src="./imgreadme/imghero.png" alt="imagen de Hero Section" style="width:50%">
 <p>He tomado una imagen de resolucion de pantalla grande y de pantalla más pequeña, como por ejemplo la de móviles</p>
+<img src="./imgreadme/imgheromov.png" alt="imagen de Hero Section" style="width:50%">
 
 <h3>Introducción</h3>
 <img src="./imgreadme/imgintro.png" alt="imagen de la introducción" style="width:50%">
