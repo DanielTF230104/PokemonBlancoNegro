@@ -123,27 +123,8 @@ color: black;}
     display:block;
     margin:auto;}
 
-#regimg {width: 70%;
-       display: block;
-       margin: auto;}
-
-#protas {width: 70%;
-       display: block;
-       margin: auto;}
-
-#rival {width: 70%;
-      display: block;
-      margin: auto;}
-
-#lideres {width: 70%;
-        display: block;
-        margin: auto;}
-
-#plasma {width: 70%;
-       display: block;
-       margin: auto;}
-
 /********* Region section  ***********/
+
        #region{background-color: black;
         Width:100%;         
         margin:auto;
@@ -153,6 +134,12 @@ color: black;}
                       text-align: center;}
 
       #region .col-2 {color: white;}
+
+      #regimg {width: 70%;
+        display: block;
+        margin: auto;}
+
+        #region{color: black;}
 
       /** este es una galeria de imagenes **/
 
@@ -231,23 +218,36 @@ from {opacity: .4}
 to {opacity: 1}
 }
 
-
-
-#characters{background-color: white;
-          Width:100%;         
-          margin:auto;
-          color: black;}
-
-#characters .title {text-align: center;}
-
 /**************************** SESSION SECTION (GRID DE 4) ********************************/
-
-#region{color: black;}
 
 .grid-4 {display: grid;
        grid-template-columns: 100%;} /***** MOBILE FIRST *****/
 
-/********************** prediction section ************************************/
+/********************** characters section ************************************/
+
+#characters{background-color: white;
+  Width:100%;         
+  margin:auto;
+  color: black;
+  padding: 20px;}
+
+#characters .title {text-align: center;}
+
+#protas {width: 70%;
+  display: block;
+  margin: auto;}
+
+#rival {width: 70%;
+ display: block;
+ margin: auto;}
+
+#lideres {width: 70%;
+   display: block;
+   margin: auto;}
+
+#plasma {width: 70%;
+  display: block;
+  margin: auto;}
 
 *, *::before, *::after {
 padding: 0;
@@ -284,7 +284,8 @@ top: -100vh; left: -100vh;
 
 /******************************* POKEMON ******************************/
 
-#pokemon .title {text-align: center;}
+#pokemon .title {text-align: center;
+                 padding: 25px;}
 
 /**************************** FOOTER ******************************************/
 footer {background-color: black;
