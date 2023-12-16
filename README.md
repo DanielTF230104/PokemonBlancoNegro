@@ -78,6 +78,7 @@
 <p>He utilizado los siguientes:</p>
 <ul>
   <li>Barra de navegación: (<a href="https://www.w3schools.com/">Página de referencia</a>)</li>
+  <li>Accordion: (<a href="https://freefrontend.com/css-accordions/">Página de referencia</a>)</li>
   <li>Galería en carrusel tomada de FreeFrontend.com "CSS IMAGE GALLERY - Author: Lubna" (<a href="https://codepen.io/Lubna/pen/MWapdjE">url</a>)</li>
   <li>Card Animation: estructura para la animación tomada del canal de Yotube @midudev (<a href="https://www.w3schools.com/">Página de referencia</a>)</li>
   <li>Ventana Modal para el los créditos en el footer tomada de W3Schools "How TO - CSS/JS Modal" (<a href="https://www.w3schools.com/howto/howto_css_modals.asp">url</a>)</li>
